@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech for Township | Ngimphiwe Nxumalo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1D4ED8;
+      --accent: #FACC15;
+      --bg: #F9FAFB;
+      --text: #111827;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      background-color: var(--accent);
+      color: black;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #eab308;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #E5E7EB;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+   <header>
+    <h1>Tech for Township</h1>
+    <p>Empowering our communities through coding and digital skills</p>
+    <button class="btn" onclick="location.href='hustle-hub.html'">Go to Hustle Hub →</button>
+  </header>
+
+  <section class="section">
+    <h2>Why Tech Matters in Townships</h2>
+    <p>Technology has the power to transform townships from overlooked communities into hubs of innovation, opportunity, and empowerment. In places where unemployment is high and resources are limited, access to technology bridges the gap between dreams and reality. It opens doors to education, remote jobs, online businesses, and creative expression. In townships, tech is not just about gadgets — it’s about giving young people the tools to build apps, solve local problems, and shape their futures. It’s about using digital skills to hustle smarter, connect globally, and uplift the community. When tech reaches the township, it sparks hope — and that hope drives change.</p>
+  </section>
+
+  <section class="section">
+    <h2>Ngimphiwe’s Journey</h2>
+    <p>Ngimphiwe Nxumalo’s journey is a story of resilience, ambition, and self-transformation. Born and raised in Ezakheni, a township in Ladysmith, KwaZulu Natal, Ngimphiwe grew up surrounded by challenges—but also by purpose. After moving to Durban for work, he balanced a full-time job as a Payroll Administrator with his passion for technology. Even while supporting his family and facing pressure from his environment, he held on to a bigger vision. His breakthrough came when he joined the FNB App Academy 2025, where he sharpened his coding skills and learned to approach problems with a developer’s mindset. From early morning gym sessions to evening study sessions, Ngimphiwe built the discipline to grow consistently. Now, as he continues to develop and complete real-world tech projects—like e-commerce platforms and township-focused solutions—he is stepping confidently into the tech world. Though the journey is still in progress, Ngimphiwe proudly embraces his role as a full stack developer in the making, proving that determination and vision can open doors, no matter where you start.</p>
+  </section>
+
+  <section class="section">
+    <h2>Free Learning Platforms</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>FreeCodeCamp</h3>
+        <p>Learn HTML, CSS, JS & more — all free, with certificates.</p>
+        <a href="https://www.freecodecamp.org" target="_blank">Visit Site</a>
+      </div>
+      <div class="card">
+        <h3>Coursera</h3>
+        <p>University-level tech courses, many are free to audit.</p>
+        <a href="https://www.coursera.org" target="_blank">Visit Site</a>
+      </div>
+      <div class="card">
+        <h3>Sololearn</h3>
+        <p>Short interactive lessons on your phone or web.</p>
+        <a href="https://www.sololearn.com" target="_blank">Visit Site</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Ngimphiwe Nxumalo | Tech for Township
+  </footer>
+</body>
+</html>

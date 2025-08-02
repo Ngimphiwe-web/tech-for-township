@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ngimphiwe's Hustle Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1D4ED8;
+      --accent: #FACC15;
+      --bg: #F9FAFB;
+      --text: #111827;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .hustle-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1rem;
+    }
+
+    .hustle-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s;
+    }
+
+    .hustle-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .hustle-card h3 {
+      margin: 0.5rem 0;
+      color: var(--primary);
+    }
+
+    .tips, .tools {
+      margin-top: 2rem;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: var(--accent);
+      color: black;
+      padding: 0.6rem 1.2rem;
+      margin-top: 1rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #eab308;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #E5E7EB;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ngimphiwe's Hustle Hub</h1>
+    <p>Simple hustles. Smart discipline. Township hustle mindset.</p>
+  </header>
+
+  <section class="section">
+    <h2>Top Side Hustles to Start Today</h2>
+    <div class="hustle-list">
+      <div class="hustle-card">
+        <h3>1. Online Surveys</h3>
+        <p>Earn airtime and cash by answering questions on apps like TGM Panel, MOBROG, etc.</p>
+      </div>
+      <div class="hustle-card">
+        <h3>2. Tutoring Kids</h3>
+        <p>Use your matric skills to help kids in your area and charge per hour.</p>
+      </div>
+      <div class="hustle-card">
+        <h3>3. Small Deliveries</h3>
+        <p>Offer local delivery by walking/biking in your neighborhood for a fee.</p>
+      </div>
+      <div class="hustle-card">
+        <h3>4. WhatsApp Ads</h3>
+        <p>Sell affordable products and promote via WhatsApp Status to your contact list.</p>
+      </div>
+      <div class="hustle-card">
+        <h3>5. Print & Type Services</h3>
+        <p>Use public Wi-Fi or a small printer to offer CV printing or typing at low prices.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tips">
+    <h2>Tips for Staying Consistent</h2>
+    <ul>
+      <li>Start small — R10 a day is better than zero.</li>
+      <li>Use a journal or app to track your earnings and goals.</li>
+      <li>Stick to your time blocks — hustle for 1 hour every evening.</li>
+      <li>Ignore noise — not everyone needs to understand your vision.</li>
+    </ul>
+  </section>
+
+  <section class="section tools">
+    <h2>Helpful Tools & Apps</h2>
+    <ul>
+      <li><strong>Trello:</strong> Track side hustles and weekly progress</li>
+      <li><strong>SnapScan / Capitec App:</strong> Get paid easily</li>
+      <li><strong>Canva:</strong> Design your hustles’ flyers for free</li>
+    </ul>
+    <a href="index.html" class="btn">← Back to Tech for Township</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Ngimphiwe Nxumalo | Hustle Hub
+  </footer>
+</body>
+</html>
